@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.form-inline {
+    display: flex;
+    align-items: center;
+}
+
+.login_text ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.login_text ul li {
+    margin: 0 10px;
+}
+
+.search-bar {
+    display: none; /* Initially hidden */
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group input {
+    margin-right: 10px;
+}
